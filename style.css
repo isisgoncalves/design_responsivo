@@ -20,15 +20,37 @@ body{
 }
 
 main p:first-child{
+  color: #7158EF;
   font-weight: 400;
   line-height: 3.2rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   margin-bottom: 1.7rem;
-  color: #7158EF;
 }
 
 h1{
+  font-weight: 800;
   font-size: 4.0rem;
   line-height: 4.8rem;
+  color: #090039;
+  margin-bottom: 1.5rem;
 }
+
+h1 + p{
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: rgba(10, 0, 57, 0.64);
+  margin-bottom: 3.2rem;
+}
+
+a{
+  font-weight: 400;
+  color: #090039;
+  text-decoration: none;
+  margin-bottom: 7.2rem;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
